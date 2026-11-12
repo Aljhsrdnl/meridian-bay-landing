@@ -1,0 +1,1140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian Bay · Legal Consultants</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0052DF">
+<meta name="description" content="Rental dispute lawyers in Dubai for tenants and landlords.">
+<!-- One family: Mona Sans 400/500/600, self-hosted (one variable latin file); crossorigin required for the preload to be reused -->
+<link rel="preload" href="assets/fonts/mona-sans-latin-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/dubai-skyline-mobile-984.webp" imagesrcset="assets/dubai-skyline-mobile-984.webp 984w" imagesizes="442px" media="(max-width:440px)">
+<link rel="preload" as="image" href="assets/dubai-skyline-1280.webp" imagesrcset="assets/dubai-skyline-800.webp 800w, assets/dubai-skyline-1280.webp 1280w, assets/dubai-skyline-2000.webp 2000w" imagesizes="(max-width:640px) 897px, max(100vw, min(100vh - 125px, 928px) * 1.7241)" media="(min-width:441px)">
+<style>
+  /* Mona Sans (SIL OFL 1.1, assets/fonts/OFL.txt): Google Fonts' unmodified latin file, wght axis 200-900; 400-600 used.
+     Fallback metrics computed from the font files (see site/index.html for the derivation). */
+  @font-face{
+    font-family:"Mona Sans";
+    src:url("assets/fonts/mona-sans-latin-var.woff2") format("woff2");
+    font-weight:400 600;
+    font-style:normal;
+    font-display:swap;
+    unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  @font-face{font-family:"Mona Sans Fallback";src:local("Arial"),local("ArialMT"),local("Helvetica"),local("Liberation Sans");font-weight:400;size-adjust:103.27%;ascent-override:105.55%;descent-override:30.99%;line-gap-override:0%}
+  @font-face{font-family:"Mona Sans Fallback";src:local("Arial"),local("ArialMT"),local("Helvetica"),local("Liberation Sans");font-weight:500;size-adjust:105.05%;ascent-override:103.76%;descent-override:30.46%;line-gap-override:0%}
+  @font-face{font-family:"Mona Sans Fallback";src:local("Arial Bold"),local("Arial-BoldMT"),local("Helvetica Bold"),local("Liberation Sans Bold");font-weight:600;size-adjust:99.57%;ascent-override:109.47%;descent-override:32.14%;line-gap-override:0%}
+  :root{
+    --blue:#0052DF;          /* the only accent: buttons, links, eyebrow, icons */
+    --blue-hover:#0045BD;
+    --halo:rgba(0,82,223,.2);/* focus halo, situation ripple + panel inner glow */
+    --blue-line:rgba(0,82,223,.16);    /* situation panel edge */
+    --blue-line-hover:rgba(0,82,223,.42);
+    --glass-hi:#FBFCFF;      /* situation panel: near-white centre ... */
+    --glass-mid:#F4F7FF;
+    --glass-lo:#E9F0FF;      /* ... pale blue at the edges */
+    --spring:cubic-bezier(.34,1.56,.64,1); /* overshoot: situation icon rise, arrow pop */
+    --navy:#0B1F4D;          /* headlines, form + footer ground */
+    --navy-2:#13295E;        /* one step up on navy */
+    --ink:#1E1E1E;           /* primary text */
+    --body:#616161;          /* secondary text (6.1:1 on white) */
+    --muted:#616161;
+    --line-btn:#D9D9D9;      /* outline button border */
+    --paper:#FAF8F4;         /* warm off-white page */
+    --paper-2:#F3F0EA;       /* alternate section */
+    --white:#FFFFFF;
+    --border:#D9D9D9;
+    --error:#C2410C;         /* field errors: 5.2:1 on white (AA) */
+    --error-halo:rgba(194,65,12,.2);
+    --line:#E6E1D8;          /* hairline */
+    --line-navy:rgba(255,255,255,.12);
+    --sky:#E4ECF8;           /* horizon tint */
+    --sans:"Mona Sans", "Mona Sans Fallback", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --serif:var(--sans);
+    --r-sm:10px; --r-md:16px; --r-lg:24px;
+    --ease:cubic-bezier(.2,.8,.2,1);
+    --blue-tint:rgba(0,82,223,.06); /* carousel arrow hover fill */
+    --faq-line:rgba(0,82,223,.3);      /* FAQ divider */
+    --faq-line-hover:rgba(0,82,223,.6);
+    --faq-ic-hover:#7FA8FF;  /* FAQ +/- on hover: 7.4:1 on --deep / #03193F (needs 3:1) */
+    --dot-hover:#A3A3A3;     /* inactive carousel dot on hover: darker than --border, stays neutral so blue still means "current" */
+    --wrap:1200px;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--body);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+  img,svg{display:block}
+  .i{width:1em;height:1em;flex:none;fill:currentColor}
+  a{color:var(--blue)}
+  h1,h2,h3{color:var(--ink);margin:0}
+  p{margin:0}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 40px}
+  :focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+
+  /* ---------- Buttons ---------- */
+  /* No shadows on buttons (design rule) */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:0 22px;border-radius:6px;font:400 17px/1 var(--sans);letter-spacing:-.01em;text-decoration:none;cursor:pointer;border:1px solid transparent;transition:background .2s var(--ease),border-color .2s var(--ease)}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-primary:hover{background:var(--blue-hover)}
+  .btn-primary .arrow{font-size:18px;transition:transform .2s var(--ease)}
+  .btn-primary:hover .arrow{transform:translateX(3px)}
+  .btn-box{padding:0 6px 0 16px;gap:14px}
+  .btn-box .box{width:36px;height:36px;border-radius:4px;background:#fff;color:var(--blue);display:grid;place-items:center;font-size:20px;flex:none}
+  .btn-box .box .i{transition:transform .25s var(--ease)}
+  .btn-box:hover .box .i,.btn-box:focus-visible .box .i{transform:rotate(45deg)}
+  .btn-outline{background:#fff;color:var(--ink);border-color:var(--line-btn)}
+  .btn-outline:hover{border-color:var(--ink)}
+  .btn-outline .i{font-size:20px} /* same 20px as the primary button's arrow; colour follows the text via .i fill:currentColor */
+  .btn-sm{min-height:46px;padding:0 22px;border-radius:7px}
+
+  /* ---------- Header ---------- */
+  .site-header{position:relative;z-index:20;background:#fff;border-bottom:1px solid #EDEDED}
+  .site-header .wrap{max-width:1294px;display:flex;align-items:center;justify-content:space-between;height:72px}
+  .logo{display:flex;align-items:center;text-decoration:none;color:var(--ink);font:500 20px/1 var(--sans);letter-spacing:-.01em}
+
+  /* ---------- Hero + trust bar share the skyline photo ---------- */
+  .hero-wrap{position:relative;overflow:hidden;background:#fff;display:flex;flex-direction:column;min-height:min(calc(100vh - 73px),980px);min-height:min(calc(100svh - 73px),980px)} /* 72px navbar + 1px border */
+  .hero-bg{position:absolute;left:0;right:0;top:52px;bottom:0;z-index:0;pointer-events:none}
+  .hero-bg picture{display:contents} /* keeps the img sized against .hero-bg, not the inline <picture> */
+  .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 100%}
+  /* top of the photo fades from #FFFFFF 100% to #FFFFFF 0% */
+  .hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#fff 0%,#fff 40%,rgba(255,255,255,.75) 50%,rgba(255,255,255,.25) 59%,rgba(255,255,255,0) 66%)}
+  .hero{position:relative;z-index:1;padding:48px 0 56px}
+  .hero-copy{text-align:center;max-width:1100px;margin:0 auto;padding:0 24px}
+  .eyebrow{display:inline-flex;align-items:center;gap:12px;color:var(--ink);font:400 17px/1.2 var(--sans);letter-spacing:-.01em}
+  .eyebrow .pulse{width:10px;height:10px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 4px rgba(0,82,223,.2)}
+  .hero h1{margin-top:28px;font:600 clamp(40px,3.9vw,56px)/1.25 var(--sans);letter-spacing:-.035em;color:var(--ink);text-wrap:balance}
+  .hero h1 .l1{display:block}
+  .hero h1 .accent{color:var(--blue)}
+  .hero .subline{max-width:780px;margin:20px auto 0;font-size:21px;line-height:1.45;letter-spacing:-.02em;color:var(--ink);text-wrap:pretty}
+  .bullets{list-style:none;padding:0;margin:40px 0 0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;color:var(--body);font-size:14px;letter-spacing:.01em}
+  .bullets li{display:flex;align-items:center;gap:10px}
+  .bullets .i{font-size:19px;color:var(--body)}
+  .ctas{margin-top:40px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+
+  /* Hero entrance: one-shot stagger on load. CSS only (no JS gate), so content can never stay hidden if JS fails.
+     Only the copy moves; the photo (mobile LCP) stays put. The trust bar continues the sequence (see its section).
+     NOTE: the hidden state lives only in the keyframe, never in the base styles, so the reduced-motion reset
+     (animation:none) leaves everything at its normal, visible state. Fill is "backwards", not "both": it holds the
+     from-frame during each delay, and once finished the effect is dropped; "forwards" would keep the text on its own
+     composited layer for the life of the page (a permanent will-change, with slightly different text antialiasing).
+     Delays: the H1 starts at 60ms so it is painted (and counted for LCP) early; the sequence ends at 750ms
+     (300ms last delay + 450ms). */
+  @keyframes hero-in{from{opacity:0;transform:translateY(18px)}}
+  .hero .eyebrow,.hero h1,.hero .subline,.hero .bullets li,.hero .ctas{animation:hero-in .45s var(--ease) var(--hd,0ms) backwards}
+  .hero h1{--hd:60ms}
+  .hero .subline{--hd:120ms}
+  .hero .bullets li:nth-child(1){--hd:180ms}
+  .hero .bullets li:nth-child(2){--hd:215ms}
+  .hero .bullets li:nth-child(3){--hd:250ms}
+  .hero .ctas{--hd:300ms}
+
+  /* ---------- Trust bar (four glass cards over the photo) ---------- */
+  .trust{position:relative;z-index:1;margin-top:auto;padding-bottom:28px}
+  .trust .wrap{max-width:1366px;padding:0 20px}
+  /* outer frosted tray holds four lighter frosted cards (inner cards skip backdrop-filter: nested blur would not see the photo) */
+  .trust-panel{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;list-style:none;margin:0;padding:9px;background:rgba(255,255,255,.22);-webkit-backdrop-filter:blur(14px) saturate(1.1);backdrop-filter:blur(14px) saturate(1.1);border:1px solid rgba(255,255,255,.35);border-radius:18px}
+  .trust-item{min-height:112px;padding:22px 22px;display:flex;flex-direction:column;justify-content:center;gap:8px;background:rgba(255,255,255,.58);border-radius:10px}
+  .trust-item .big{font:600 40px/1 var(--sans);letter-spacing:-.03em;color:var(--ink);display:flex;align-items:center;gap:10px;min-height:40px}
+  .trust-item .big .star{font-size:22px;color:var(--blue)}
+  .trust-item .big .ico{font-size:34px}
+  .trust-item .label{font-size:17px;color:var(--ink);letter-spacing:-.01em}
+  /* Trust bar entrance, continuing the hero sequence. Same rules as hero-in: CSS only, fill "backwards", plays once.
+     The tray only slides (transform, never opacity): fading an element that holds a backdrop-filter, or any ancestor
+     of it, makes the frost pop in at the end instead of fading with it. The cards carry no backdrop-filter, so they
+     slide + fade like the hero copy, left to right (DOM order, which is also reading order in the 2x2 grid).
+     Distances fit the existing gutters, so .hero-wrap's overflow:hidden never clips the slide: the tray's 16px stays
+     inside .trust's 20-28px bottom padding, the cards' 12px inside the tray (6-9px padding) plus the tray's own travel.
+     Timing: tray 340ms (right after the CTAs at 300ms), cards 400/465/530/595ms; the last ends at 1045ms. */
+  @keyframes tray-in{from{transform:translateY(16px)}}
+  @keyframes trust-in{from{opacity:0;transform:translateY(12px)}}
+  .trust-panel{animation:tray-in .45s var(--ease) 340ms backwards}
+  .trust-item{animation:trust-in .45s var(--ease) var(--td,400ms) backwards}
+  .trust-item:nth-child(2){--td:465ms}
+  .trust-item:nth-child(3){--td:530ms}
+  .trust-item:nth-child(4){--td:595ms}
+  .stars{display:flex;gap:2px;color:var(--blue)}
+  .stars .i{font-size:16px}
+
+  /* ---------- Section frame ---------- */
+  section.block{padding:128px 0}
+  .head{max-width:760px}
+  .head.center{margin:0 auto;text-align:center}
+  /* Single source of truth for every section h2 (sections only override colour/alignment).
+     Linear from 32px at 375 to 44px at 1440 (slope 12/1065 = 1.125vw), capped at 44px above 1440. */
+  h2{font:600 clamp(32px,1.125vw + 27.8px,44px)/1.12 var(--sans);letter-spacing:-.025em;text-wrap:balance}
+
+  /* ---------- Problems ---------- */
+  .problems{background:var(--white);border-top:1px solid var(--line)}
+  /* heading in the first third, 2×2 cards in the other two (≤1024: heading on top) */
+  .problems .wrap{max-width:1390px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:40px 44px;align-items:start}
+  .prob-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+  /* Each card is a link to the form (works without JS) wrapping one glass panel that holds icon, title and answer.
+     Card and panel both span the same 3 subgrid rows (icon / title / answer), so titles and answers line up across
+     a row even when one title wraps, and both cards in a row share one height.
+     NOTE: row-gap:0 on both subgrids is load-bearing: without it they inherit the outer 20px gap, which would add
+     20px to the icon->title and title->answer spacing (set by margins below) */
+  .prob{display:grid;grid-row:span 3;grid-template-rows:subgrid;row-gap:0;color:inherit;text-decoration:none;border-radius:22px;-webkit-tap-highlight-color:transparent}
+  .prob-panel{grid-row:1/-1;display:grid;grid-template-rows:subgrid;row-gap:0;justify-items:center;text-align:center;
+    position:relative;isolation:isolate;overflow:hidden;padding:48px 32px 44px;border:1px solid var(--blue-line);border-radius:22px;
+    /* glass panel: near-white centre fading to pale blue at the edges; inner blue glow per Figma (inset 0 0 24 0, #0052DF 20%).
+       #616161 answer text on the palest edge (#E9F0FF) is 5.4:1, so AA holds anywhere on the panel */
+    background:radial-gradient(75% 95% at 50% 42%,var(--glass-hi) 0%,var(--glass-mid) 58%,var(--glass-lo) 100%);
+    box-shadow:inset 0 0 24px 0 var(--halo);
+    transition:border-color .25s var(--ease),transform .18s var(--ease)}
+  /* fixed square box (matches the 1:1 WebPs), ~30% of the card height as in the design */
+  .prob-ic{display:block;width:88px;height:88px;pointer-events:none;user-select:none}
+  .prob-go{position:absolute;z-index:2;top:10px;right:10px;width:36px;height:36px;border:1.5px solid var(--blue);border-radius:50%;display:grid;place-items:center;color:var(--blue);font-size:18px;
+    transition:opacity .25s var(--ease),transform .4s var(--spring),background-color .2s var(--ease),color .2s var(--ease)}
+  .prob h3{margin-top:32px;font:500 22px/1.3 var(--sans);letter-spacing:-.015em;color:var(--ink);text-wrap:balance}
+  .prob p{margin-top:12px;max-width:33ch;font-size:17px;line-height:1.5;color:var(--body);text-wrap:pretty}
+  .prob:focus-visible{outline-offset:8px;border-radius:22px}
+  .prob:focus-visible .prob-panel{border-color:var(--blue-line-hover)}
+  /* Fine pointers: the arrow appears on hover/focus and the icon rises from below centre with an overshoot.
+     The hover target is the whole card, which never moves, so a pointer resting on an edge cannot make it flicker.
+     Removing :hover drops the animation, so the next hover replays it. Touch keeps the arrow visible (base styles). */
+  @media (hover:hover) and (pointer:fine){
+    .prob-go{opacity:0;transform:scale(.6)}
+    .prob:hover .prob-go,.prob:focus-visible .prob-go{opacity:1;transform:none}
+    .prob:hover .prob-panel{border-color:var(--blue-line-hover)}
+    .prob:hover .prob-ic{animation:prob-rise .55s var(--spring) both}
+  }
+  @keyframes prob-rise{from{transform:translateY(18px);opacity:.6}to{transform:none;opacity:1}}
+  /* Press + click confirmation: panel gives a little, arrow fills and nudges toward the form, ripple from the click point */
+  .prob:active .prob-panel{transform:scale(.98)}
+  .prob.is-going .prob-go{opacity:1;transform:translate(3px,-3px);background-color:var(--blue);color:var(--white)}
+  .prob-ripple{position:absolute;z-index:-1;border-radius:50%;translate:-50% -50%;background:radial-gradient(closest-side,var(--halo),rgba(0,82,223,0));pointer-events:none;animation:prob-ripple .6s var(--ease) forwards}
+  @keyframes prob-ripple{from{transform:scale(0);opacity:1}to{transform:scale(1);opacity:0}}
+  @media (prefers-reduced-motion:reduce){
+    .prob:active .prob-panel,.prob.is-going .prob-go{transform:none}
+  }
+
+  /* ---------- How it works (overflowing card carousel) ---------- */
+  /* whole section fits one screen: cards take the height left over after title + controls */
+  .process{background:#fff;--gutter:max(24px,calc((100vw - 1310px) / 2));height:100vh;height:100svh;min-height:560px;padding:56px 0 48px;display:flex;flex-direction:column;justify-content:center}
+  .process .wrap{max-width:1390px;width:100%}
+  .rail{list-style:none;margin:32px 0 0;padding:0 var(--gutter);flex:1 1 auto;min-height:0;max-height:min(595px,calc(min(893px,78vw) / 1.5));display:flex;align-items:stretch;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--gutter);scrollbar-width:none;overscroll-behavior-x:contain}
+  .rail::-webkit-scrollbar{display:none}
+  .rail:focus-visible{outline-offset:-2px}
+  .card{position:relative;flex:0 0 auto;height:100%;aspect-ratio:3/2;max-width:min(893px,78vw);border-radius:20px;overflow:hidden;scroll-snap-align:start;background:#2B2B2B;color:#fff}
+  .card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  /* fade: #1E1E1E 100% at the bottom → 0% at the centre */
+  .card::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,#1E1E1E 0%,rgba(30,30,30,0) 50%)}
+  .card .txt{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:0 38px 36px}
+  .card h3{color:#fff;font:500 32px/1.2 var(--sans);letter-spacing:-.02em}
+  .card p{margin-top:14px;font-size:17px;line-height:1.5;color:rgba(255,255,255,.92)}
+  .rail-nav{flex:none;margin-top:32px;display:flex;justify-content:center;align-items:center;gap:22px}
+  .rail-btn{width:72px;height:72px;border-radius:50%;border:1px solid #D9D9D9;background:#fff;color:var(--ink);display:grid;place-items:center;font-size:24px;cursor:pointer;transition:border-color .2s var(--ease),background-color .2s var(--ease),color .2s var(--ease),opacity .2s var(--ease),transform .15s var(--ease)}
+  .rail-btn:disabled{opacity:.4;cursor:default}
+  .dots{height:72px;padding:0 30px;border:1px solid #D9D9D9;border-radius:999px;display:flex;align-items:center;gap:8px}
+  .dots button{width:28px;height:28px;padding:0;border:0;background:none;cursor:pointer;display:grid;place-items:center;border-radius:50%} /* 28px hit area (WCAG 2.5.8 asks for 24) around the 14px dot; round so the focus ring is too */
+  .dots button::before{content:"";width:14px;height:14px;border-radius:50%;background:#D9D9D9;transition:background .2s var(--ease),transform .2s var(--ease)}
+  .dots button[aria-current="true"]::before{background:var(--blue)}
+  /* Hover only where a real pointer can hover, so touch never sticks in a hover state. Disabled arrows and the
+     current dot get no hover. Scale/press motion only without reduced motion; colour changes stay either way. */
+  @media (hover:hover) and (pointer:fine){
+    .rail-btn:not(:disabled):hover{border-color:var(--blue);color:var(--blue);background-color:var(--blue-tint)}
+    .dots button:not([aria-current="true"]):hover::before{background:var(--dot-hover)}
+  }
+  @media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+    .dots button:not([aria-current="true"]):hover::before{transform:scale(1.2)}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .rail-btn:not(:disabled):active{transform:scale(.96)}
+  }
+
+  /* ---------- Testimonials ---------- */
+  .quotes{background:#fff}
+  .quotes .wrap{max-width:1390px}
+  .q-grid{margin-top:56px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .q{background:#F7F7F7;border-radius:20px;padding:28px;min-height:416px;display:flex;flex-direction:column;margin:0}
+  .q .mark{font-size:30px;color:var(--blue)}
+  .q blockquote{margin:auto 0 0;padding-top:40px;font:400 22px/1.45 var(--sans);letter-spacing:-.015em;color:var(--ink);text-wrap:pretty}
+  .q figcaption{margin-top:56px;padding-left:20px;border-left:2px solid #D9D9D9;display:flex;flex-direction:column;gap:4px;font-size:17px;line-height:1.4;color:var(--body)}
+  .q figcaption strong{color:var(--ink);font-weight:500;margin-bottom:6px}
+  .q .role{text-transform:capitalize}
+  .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+  /* ---------- FAQ (dark, with an oblong primary-colour glow) ---------- */
+  .faq{position:relative;overflow:hidden;background:#03193F;padding:112px 0 120px}
+  .faq::before{content:"";position:absolute;left:50%;top:-170px;width:118%;height:300px;transform:translateX(-50%);border-radius:50%;background:var(--blue);filter:blur(90px);opacity:.8;pointer-events:none}
+  .faq .wrap{position:relative}
+  .faq h2{color:#fff;text-align:center}
+  .faq-list{max-width:862px;margin:56px auto 0}
+  .faq-list details{border-bottom:1px solid var(--faq-line);transition:border-color .2s var(--ease)}
+  .faq-list details:last-child{border-bottom:0}
+  .faq-list summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px 0;font:500 18px/1.4 var(--sans);color:#fff;letter-spacing:-.01em;min-height:44px}
+  .faq-list summary::-webkit-details-marker{display:none}
+  .faq-list summary:focus-visible{outline-color:#fff}
+  /* + turns right and becomes − */
+  .faq-list .pm{position:relative;width:28px;height:28px;flex:none;color:#fff;transition:color .2s var(--ease),transform .2s var(--ease)}
+  .faq-list .pm .i{position:absolute;inset:0;width:100%;height:100%;transition:transform .45s var(--ease),opacity .3s var(--ease)}
+  .faq-list .pm .minus{opacity:0;transform:rotate(-90deg)}
+  .faq-list details[open] .pm .plus{opacity:0;transform:rotate(90deg)}
+  .faq-list details[open] .pm .minus{opacity:1;transform:rotate(0)}
+  .faq-list .ans{padding:0 0 28px;font-size:17px;line-height:1.6;color:rgba(255,255,255,.88)}
+  /* Hover: the question nudges right, the +/- turns light blue and grows a touch, the divider brightens.
+     The scale sits on .pm (the wrapper), never on the .i icons, so it cannot fight their open/close rotation.
+     Question text stays full white open or closed; only the answer is dimmer (.88). */
+  .faq-list .faq-q{transition:transform .2s var(--ease)}
+  @media (hover:hover) and (pointer:fine){
+    .faq-list summary:hover .pm{color:var(--faq-ic-hover)}
+    .faq-list details:has(> summary:hover){border-bottom-color:var(--faq-line-hover)}
+  }
+  @media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+    .faq-list summary:hover .faq-q{transform:translateX(4px)}
+    .faq-list summary:hover .pm{transform:scale(1.1)}
+  }
+  /* smooth open/close where supported (Chrome 131+); instant elsewhere */
+  .faq-list{interpolate-size:allow-keywords}
+  .faq-list details::details-content{block-size:0;overflow:hidden;transition:block-size .4s var(--ease),content-visibility .4s allow-discrete}
+  .faq-list details[open]::details-content{block-size:auto}
+
+  /* ---------- Form (night skyline photo behind a white card) ---------- */
+  .form-sec{position:relative;overflow:hidden;background:#03193F;padding:72px 0 80px;color:#fff}
+  .form-bg{position:absolute;inset:0;z-index:0}
+  .form-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 0%}
+  .form-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 591px;gap:64px;align-items:start}
+  .form-copy{padding-top:100px}
+  .form-sec h2{color:#fff}
+  .form-sec .lead{margin-top:18px;font-size:18px;line-height:1.5;color:#fff;max-width:370px}
+  .form-card{background:#fff;border-radius:16px;padding:36px 35px 28px;color:var(--body)}
+
+  /* floating-label fields: label sits inside; floats up on hover, focus or when filled */
+  .fl{position:relative;margin-bottom:20px}
+  .fl input,.fl select,.fl textarea,.fl .dd-btn{display:block;width:100%;height:52px;padding:22px 16px 6px;font:400 17px/1.3 var(--sans);color:var(--ink);background:#fff;border:1px solid #D9D9D9;border-radius:8px;outline:2px solid transparent;outline-offset:0;transition:border-color .2s var(--ease),outline-color .2s var(--ease)}
+  .fl textarea{min-height:132px;height:auto;resize:vertical;field-sizing:content;max-height:260px;padding-top:28px;line-height:1.45}
+  .fl select{appearance:none;-webkit-appearance:none;padding-right:48px;cursor:pointer}
+  .fl .caret{position:absolute;right:16px;top:15px;font-size:22px;color:var(--ink);pointer-events:none;transition:transform .35s var(--ease)}
+  .fl label{position:absolute;left:17px;top:26px;transform:translateY(-50%);font:400 17px/1 var(--sans);color:var(--body);pointer-events:none;transform-origin:left top;transition:top .2s var(--ease),font-size .2s var(--ease),transform .2s var(--ease)}
+  .fl:hover input,.fl:hover select,.fl:hover textarea,.fl:hover .dd-btn{border-color:var(--blue)}
+  .fl input:focus,.fl select:focus,.fl textarea:focus,.fl .dd-btn:focus-visible,.dd.open .dd-btn{border-color:var(--blue);outline-color:rgba(0,82,223,.2)}
+  .fl:hover label,.fl:focus-within label,
+  .fl input:not(:placeholder-shown) + label,.fl textarea:not(:placeholder-shown) + label,.fl select:valid + label{top:9px;transform:none;font-size:12px}
+  .fl input::placeholder,.fl textarea::placeholder{color:transparent}
+  /* Required marker. Generated content with empty alt text ("/ ''") keeps it out of the accessible name and out of
+     the page text; the `required` attribute already announces it. Browsers without the alt syntax drop the whole
+     declaration, so they show no marker rather than reading out "star". It scales with the floating label. */
+  .fl label::after{content:"*" / "";margin-left:.12em;color:var(--blue)}
+  /* JS sets aria-invalid only after a submit attempt (see "Form feedback"); it wins over hover and focus */
+  .form-card .fl [aria-invalid="true"]{border-color:var(--error)}
+  .form-card .fl [aria-invalid="true"]:focus,.form-card .fl .dd-btn[aria-invalid="true"]:focus-visible{outline-color:var(--error-halo)}
+
+  /* Error line under a field: collapsed (0fr row) and hidden from AT until JS fills and opens it */
+  .field-err{display:grid;grid-template-rows:0fr;opacity:0;visibility:hidden;transition:grid-template-rows .25s var(--ease),opacity .2s var(--ease),visibility 0s .25s}
+  .field-err.on{grid-template-rows:1fr;opacity:1;visibility:visible;transition:grid-template-rows .25s var(--ease),opacity .25s var(--ease) .05s,visibility 0s}
+  .fe-clip{min-height:0;overflow:hidden}
+  .fe-row{display:flex;align-items:flex-start;gap:6px;padding:7px 0 0 1px;font-size:14px;line-height:1.4;color:var(--error)}
+  .fe-row .i{font-size:16px;margin-top:2px} /* 2px = (19.6px line box - 16px icon) / 2: centres it on the first line */
+  .dd-btn.flash{animation:flash 1.4s var(--ease)} /* arrival cue: "I am a" was just preselected by a situation card */
+
+  /* custom "I am a" dropdown (native <select> stays underneath for the form value + validation) */
+  .dd{z-index:3}
+  .dd select{position:absolute;left:50%;bottom:0;width:1px;height:1px;opacity:0;pointer-events:none}
+  .fl .dd-btn{text-align:left;cursor:pointer;padding-right:48px}
+  .dd-val{display:block;min-height:1.3em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .dd.open .caret{transform:rotate(180deg)}
+  /* 60px = 52px control + 8px gap: anchored to the button, not the wrapper, so an open error line doesn't push it down */
+  .dd-list{position:absolute;left:0;right:0;top:60px;margin:0;padding:0;list-style:none;background:#fff;border:1px solid #D9D9D9;border-radius:10px;overflow:hidden;opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .2s var(--ease),transform .25s var(--ease),visibility 0s .25s}
+  .dd.open .dd-list{opacity:1;visibility:visible;transform:none;transition:opacity .2s var(--ease),transform .25s var(--ease),visibility 0s}
+  .dd-list li{display:flex;align-items:center;justify-content:space-between;height:54px;padding:0 20px 0 24px;font:400 17px/1 var(--sans);color:var(--ink);cursor:pointer;transition:background .18s var(--ease),color .18s var(--ease)}
+  .dd-list li + li{border-top:1px solid #D9D9D9}
+  .dd-list li .t{transition:transform .22s var(--ease)}
+  /* hover / keyboard-active mini interaction: soft blue wash, label nudges right */
+  .dd-list li:hover,.dd-list li.active{background:#F3F7FE;color:var(--blue)}
+  .dd-list li:hover .t,.dd-list li.active .t{transform:translateX(4px)}
+  .dd-list li .ck{font-size:22px;color:var(--ink);opacity:0;transform:scale(.6);transition:opacity .2s var(--ease),transform .25s var(--ease)}
+  .dd-list li[aria-selected="true"] .ck{opacity:1;transform:none}
+  .dd-list li:hover .ck,.dd-list li.active .ck{color:var(--blue)}
+  @keyframes flash{0%,100%{outline-color:rgba(0,82,223,0)}25%,60%{outline-color:rgba(0,82,223,.35);border-color:var(--blue)}}
+  .submit{width:100%;margin-top:40px;min-height:48px;justify-content:center;font-size:17px}
+  .fine{margin-top:18px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:14px;color:var(--body)}
+  .fine .i{color:var(--blue);font-size:15px}
+
+  /* "Request received": built by JS after a valid submit, replaces the fields inside the card */
+  .form-card{scroll-margin-top:24px}
+  .form-card.is-done{display:flex;flex-direction:column;justify-content:center} /* centres the panel in the height kept from the fields */
+  .ok[hidden]{display:none}
+  .ok{display:flex;flex-direction:column;align-items:flex-start;animation:ok-in .45s var(--ease) both}
+  .ok-ico{font-size:44px;color:var(--blue)}
+  .ok h3{margin-top:18px;font:600 28px/1.2 var(--sans);letter-spacing:-.02em}
+  .ok h3:focus{outline:none} /* programmatic focus target (tabindex=-1) for screen readers, not an interactive control */
+  .ok-line{margin-top:12px;font-size:17px;line-height:1.5;color:var(--body);overflow-wrap:anywhere}
+  .ok-line .ok-num{white-space:nowrap;color:var(--ink)}
+  .ok h4{align-self:stretch;margin:28px 0 0;padding-top:24px;border-top:1px solid var(--border);font:500 15px/1.3 var(--sans);color:var(--ink)}
+  .ok-steps{margin:18px 0 0;padding:0;list-style:none;counter-reset:step;display:grid;gap:18px}
+  .ok-steps li{counter-increment:step;display:grid;grid-template-columns:28px minmax(0,1fr);column-gap:14px}
+  /* counter in generated content with empty alt text: the <ol> already gives screen readers the numbers */
+  .ok-steps li::before{content:counter(step) / "";grid-row:1 / span 2;width:28px;height:28px;border-radius:50%;background:var(--blue);color:var(--white);font:500 14px/28px var(--sans);text-align:center}
+  .ok-steps strong{font:500 17px/1.3 var(--sans);color:var(--ink);padding-top:4px} /* 4px: aligns its first line with the 28px marker */
+  .ok-steps .ok-desc{margin-top:4px;font-size:15.5px;line-height:1.5;color:var(--body)}
+  .ok .btn{margin-top:30px}
+  @keyframes ok-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--blue);color:#fff;font-size:17px}
+  footer .wrap{max-width:1294px;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:80px;flex-wrap:wrap;padding-top:20px;padding-bottom:20px}
+  /* underlined by default; on hover the line wipes out to the right and redraws from the left */
+  footer a{color:#fff;text-decoration:none;padding-bottom:3px;background:linear-gradient(currentColor,currentColor) 0 100% / 100% 1px no-repeat}
+  footer a:hover{animation:redraw .6s var(--ease)}
+  @keyframes redraw{0%{background-size:100% 1px;background-position:100% 100%}45%{background-size:0 1px;background-position:100% 100%}46%{background-size:0 1px;background-position:0 100%}100%{background-size:100% 1px;background-position:0 100%}}
+  footer a:focus-visible{outline-color:#fff}
+
+  /* ---------- Sticky mobile CTA ---------- */
+  .sticky-cta{display:none}
+
+  /* ---------- Scroll reveal (content visible without JS) ---------- */
+  .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s var(--ease),transform .6s var(--ease);transition-delay:var(--d,0ms)}
+  .js .reveal.in{opacity:1;transform:none}
+
+  /* ---------- Mockup-only controls (not part of the page) ---------- */
+  .mock{position:fixed;left:16px;bottom:16px;z-index:60;font:500 12px/1.3 var(--sans);color:#1F2937;background:#fff;border:1px solid #E5E7EB;border-radius:10px;box-shadow:0 10px 30px -12px rgba(0,0,0,.3)}
+  .mock summary{cursor:pointer;padding:10px 12px;list-style:none;font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:11px;color:#6B7280}
+  .mock summary::-webkit-details-marker{display:none}
+  .mock .opts{padding:0 12px 12px;display:grid;gap:8px;min-width:220px}
+  .mock .opts label{font:500 12px/1.3 var(--sans);color:#1F2937;display:flex;gap:8px;align-items:center}
+  .mock .opts button{font:500 12px/1 var(--sans);padding:8px 10px;border-radius:6px;border:1px solid #E5E7EB;background:#F9FAFB;cursor:pointer;text-align:left}
+
+  /* =================== Tablet (≤1024) =================== */
+  @media (max-width:1024px){
+    .wrap{padding:0 32px}
+    .problems .wrap{grid-template-columns:minmax(0,1fr)}
+    .prob-panel{padding:40px 24px 36px}
+    .prob-ic{width:80px;height:80px}
+    .q-grid{grid-template-columns:1fr;max-width:640px;margin-left:auto;margin-right:auto}
+    .q{min-height:0}
+    .form-grid{grid-template-columns:1fr;gap:40px;max-width:620px;margin:0 auto}
+    .form-copy{padding-top:0}
+    .trust-panel{grid-template-columns:repeat(2,1fr)}
+  }
+
+  /* Short desktop screens (e.g. 1280×720): tighten the hero so the trust bar stays in the first screen */
+  @media (min-width:641px) and (max-height:780px){
+    .hero{padding:32px 0 40px}
+    .hero h1{margin-top:20px}
+    .bullets{margin-top:28px}
+    .ctas{margin-top:28px}
+    .trust{padding-bottom:20px}
+  }
+
+  /* =================== Mobile (≤640) =================== */
+  @media (max-width:640px){
+    h2{text-align:center} /* every section heading centres on phones; no section rule sets h2 alignment except .faq (centre) */
+    body{font-size:16px}
+    .wrap{padding:0 20px}
+    .site-header .wrap{height:72px}
+    .logo{font-size:16px}
+    .logo .sub{display:block;margin-top:3px}
+    .logo .dot{display:none}
+    .logo .txt{line-height:1.1}
+    .site-header .btn-sm{min-height:42px;padding:0 14px;font-size:15px}
+    .hero{padding-top:36px}
+    .eyebrow{font-size:15px}
+    .hero h1{margin-top:20px;font-size:36px;line-height:1.15;letter-spacing:-.03em}
+    .hero h1 .l1{display:inline} /* one continuous sentence flow on phones */
+    .hero h1{text-wrap:pretty}
+    .hero .subline{font-size:17px;margin-top:16px;letter-spacing:-.01em}
+    .bullets{flex-direction:column;align-items:flex-start;gap:12px;width:max-content;max-width:100%;margin:26px auto 0;text-align:left}
+    .ctas{flex-direction:column;align-items:stretch;margin-top:30px}
+    .ctas .btn{width:100%}
+    .btn-box{justify-content:space-between;padding-left:18px}
+    .hero-bg{top:auto;height:520px}
+    .hero-wrap{min-height:0}
+    .hero{padding-bottom:0}
+    .trust{margin-top:150px;padding-bottom:20px}
+    .trust .wrap{padding:0 12px}
+    .trust-panel{gap:6px;padding:6px;border-radius:14px}
+    .trust-item{min-height:96px;padding:16px 14px;border-radius:9px}
+    .trust-item .big{font-size:30px;min-height:32px}
+    .trust-item .big .ico{font-size:28px}
+    .trust-item .label{font-size:14.5px}
+    section.block{padding:88px 0}
+    .problems .wrap{gap:32px}
+    .prob-grid{grid-template-columns:minmax(0,1fr)}
+    .prob-panel{padding:36px 20px 32px}
+    .prob-ic{width:72px;height:72px}
+    .prob h3{margin-top:24px;font-size:20px}
+    .prob p{font-size:16px}
+    .process{height:auto;min-height:0;padding:56px 0}
+    .rail{margin-top:28px;gap:12px;flex:none;max-height:none;align-items:flex-start}
+    .card{height:auto;width:84vw;max-width:none;aspect-ratio:4/5;border-radius:16px}
+    /* 4:5 shows the middle 53% of the 3:2 photo; 36% keeps both seated faces (crop x 18%-70%) in frame */
+    #step-3 img{object-position:36% 50%}
+    .card .txt{padding:0 22px 24px}
+    .card h3{font-size:24px}
+    .card p{font-size:15.5px;margin-top:10px}
+    .rail-nav{margin-top:28px;gap:12px}
+    .rail-btn{width:52px;height:52px;font-size:20px}
+    .dots{height:52px;padding:0 18px}
+    .q-grid{margin-top:36px;gap:12px}
+    .q{padding:24px 22px;border-radius:16px}
+    .q blockquote{font-size:19px;padding-top:28px}
+    .q figcaption{margin-top:36px;font-size:16px}
+    .faq{padding:88px 0 96px}
+    .faq::before{top:-200px;width:180%;height:320px}
+    .faq-list{margin-top:36px}
+    .faq-list summary{font-size:17px;padding:22px 0}
+    .faq-list .pm{width:24px;height:24px}
+    .faq-list .ans{padding:0 8px 24px 0;font-size:16px}
+    .form-sec{padding:64px 0 72px}
+    .form-sec .lead{text-align:center;margin-inline:auto} /* follows the centred h2; auto margins centre the 370px max-width box between ~410 and 640px */
+    .form-card{padding:24px 18px 20px;border-radius:14px}
+    .submit{margin-top:28px}
+    .ok h3{font-size:24px}
+    .ok .btn{align-self:stretch}
+    /* NOTE: no extra bottom padding for the sticky CTA. upd() hides it once the form's top is within 85% of the
+       viewport, and the footer comes after the form, so the bar is never over the footer; without JS it stays
+       translated off-screen. Items centre themselves (align-items), so the link underline stays under its text only. */
+    footer{font-size:15px}
+    footer .wrap{flex-direction:column;align-items:center;text-align:center;gap:8px;padding:20px}
+    .sticky-cta{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:40;transform:translateY(140%);transition:transform .3s var(--ease)}
+    .sticky-cta.on{transform:none}
+    .sticky-cta .btn{width:100%;min-height:56px;border-radius:8px}
+    .mock{display:none}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    .js .reveal{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- Phosphor icons (phosphoricons.com, MIT), used via <use href="#ph-…"> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ph-check-circle-fill" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm45.66,85.66-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35a8,8,0,0,1,11.32,11.32Z"/></symbol>
+  <symbol id="ph-arrow-up-right" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"/></symbol>
+  <symbol id="ph-star-fill" viewBox="0 0 256 256"><path d="M234.29,114.85l-45,38.83L203,211.75a16.4,16.4,0,0,1-24.5,17.82L128,198.49,77.47,229.57A16.4,16.4,0,0,1,53,211.75l13.76-58.07-45-38.83A16.46,16.46,0,0,1,31.08,86l59-4.76,22.76-55.08a16.36,16.36,0,0,1,30.27,0l22.75,55.08,59,4.76a16.46,16.46,0,0,1,9.37,28.86Z"/></symbol>
+  <symbol id="ph-chats" viewBox="0 0 256 256"><path d="M216,80H184V48a16,16,0,0,0-16-16H40A16,16,0,0,0,24,48V176a8,8,0,0,0,13,6.22L72,154V184a16,16,0,0,0,16,16h93.59L219,230.22a8,8,0,0,0,5,1.78,8,8,0,0,0,8-8V96A16,16,0,0,0,216,80ZM66.55,137.78,40,159.25V48H168v88H71.58A8,8,0,0,0,66.55,137.78ZM216,207.25l-26.55-21.47a8,8,0,0,0-5-1.78H88V152h80a16,16,0,0,0,16-16V96h32Z"/></symbol>
+  <symbol id="ph-file-text" viewBox="0 0 256 256"><path d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-32-80a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,136Zm0,32a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,168Z"/></symbol>
+  <symbol id="ph-plus" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></symbol>
+  <symbol id="ph-lock-simple-fill" viewBox="0 0 256 256"><path d="M208,80H176V56a48,48,0,0,0-96,0V80H48A16,16,0,0,0,32,96V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80ZM96,56a32,32,0,0,1,64,0V80H96Z"/></symbol>
+  <symbol id="ph-quotes-fill" viewBox="0 0 256 256"><path d="M116,72v88a48.05,48.05,0,0,1-48,48,8,8,0,0,1,0-16,32,32,0,0,0,32-32v-8H40a16,16,0,0,1-16-16V72A16,16,0,0,1,40,56h60A16,16,0,0,1,116,72ZM216,56H156a16,16,0,0,0-16,16v64a16,16,0,0,0,16,16h60v8a32,32,0,0,1-32,32,8,8,0,0,0,0,16,48.05,48.05,0,0,0,48-48V72A16,16,0,0,0,216,56Z"/></symbol>
+  <symbol id="ph-plus-light" viewBox="0 0 256 256"><path d="M222,128a6,6,0,0,1-6,6H134v82a6,6,0,0,1-12,0V134H40a6,6,0,0,1,0-12h82V40a6,6,0,0,1,12,0v82h82A6,6,0,0,1,222,128Z"/></symbol>
+  <symbol id="ph-minus-light" viewBox="0 0 256 256"><path d="M222,128a6,6,0,0,1-6,6H40a6,6,0,0,1,0-12H216A6,6,0,0,1,222,128Z"/></symbol>
+  <symbol id="ph-caret-left-light" viewBox="0 0 256 256"><path d="M164.24,203.76a6,6,0,1,1-8.48,8.48l-80-80a6,6,0,0,1,0-8.48l80-80a6,6,0,0,1,8.48,8.48L88.49,128Z"/></symbol>
+  <symbol id="ph-caret-right-light" viewBox="0 0 256 256"><path d="M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z"/></symbol>
+  <symbol id="ph-caret-down-light" viewBox="0 0 256 256"><path d="M212.24,100.24l-80,80a6,6,0,0,1-8.48,0l-80-80a6,6,0,0,1,8.48-8.48L128,167.51l75.76-75.75a6,6,0,0,1,8.48,8.48Z"/></symbol>
+  <symbol id="ph-check-light" viewBox="0 0 256 256"><path d="M228.24,76.24l-128,128a6,6,0,0,1-8.48,0l-56-56a6,6,0,0,1,8.48-8.48L96,191.51,219.76,67.76a6,6,0,0,1,8.48,8.48Z"/></symbol>
+  <symbol id="ph-warning-circle-fill" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-8,56a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm8,104a12,12,0,1,1,12-12A12,12,0,0,1,128,184Z"/></symbol>
+  <symbol id="ph-whatsapp-logo-fill" viewBox="0 0 256 256"><path d="M152.58,145.23l23,11.48A24,24,0,0,1,152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155ZM232,128A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-40,24a8,8,0,0,0-4.42-7.16l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88A40,40,0,0,0,192,152Z"/></symbol>
+</svg>
+
+<!-- 1. Header -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Meridian Bay · Legal Consultants">
+      <span class="txt">Meridian Bay<span class="dot"> · </span><span class="sub">Legal Consultants</span></span>
+    </a>
+    <a class="btn btn-outline btn-sm js-to-form" href="#review">Free Case Review</a>
+  </div>
+</header>
+
+<main id="top">
+ <div class="hero-wrap">
+  <!-- Skyline photo behind hero + trust bar. Top fades #FFFFFF 100% → 0% -->
+  <div class="hero-bg" aria-hidden="true">
+    <!-- NOTE: object-fit:cover on the 520px-tall mobile box renders the 2000x1160 photo 897px wide
+         (520 x 2000/1160), so phones only see its centre. The <=440px branch serves that centre
+         (984x1160 crop at x=508, same scale and centre, so the visible frame is unchanged) instead of the 2000w file.
+         Above 640px the box is height-bound on tall screens (portrait tablets render the photo ~1550-1600px wide),
+         so sizes = max(100vw, box height x 2000/1160), box height = min(100vh - 73px header, 980px cap) - 52px top offset.
+         Browsers that can't parse max()/min() in sizes drop that entry and fall back to 100vw. -->
+    <picture>
+      <source media="(max-width:440px)" srcset="assets/dubai-skyline-mobile-984.webp 984w" sizes="442px" width="984" height="1160">
+      <img src="assets/dubai-skyline-1280.webp" srcset="assets/dubai-skyline-800.webp 800w, assets/dubai-skyline-1280.webp 1280w, assets/dubai-skyline-2000.webp 2000w" sizes="(max-width:640px) 897px, max(100vw, min(100vh - 125px, 928px) * 1.7241)" width="2000" height="1160" alt="" decoding="async">
+    </picture>
+  </div>
+
+  <!-- 2. Hero -->
+  <section class="hero" aria-labelledby="h1">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="pulse" aria-hidden="true"></span>Rental Dispute Lawyers in Dubai</span>
+      <h1 id="h1"><span class="l1">Rental dispute in Dubai?</span> Get a clear plan within <span class="accent">24 hours.</span></h1>
+      <p class="subline">We represent tenants and landlords at the Rental Dispute Settlement Centre, from eviction notices and unpaid rent to deposit claims. In Arabic and English.</p>
+      <ul class="bullets">
+        <li><svg class="i" aria-hidden="true"><use href="#ph-check-circle-fill"/></svg>Free 15-minute case review</li>
+        <li><svg class="i" aria-hidden="true"><use href="#ph-check-circle-fill"/></svg>Fixed-fee quote before you commit</li>
+        <li><svg class="i" aria-hidden="true"><use href="#ph-check-circle-fill"/></svg>Licensed legal consultants in Dubai</li>
+      </ul>
+      <div class="ctas">
+        <a class="btn btn-primary btn-box js-to-form" id="heroCta" href="#review">Book a Free Case Review
+          <span class="box" aria-hidden="true"><svg class="i"><use href="#ph-arrow-up-right"/></svg></span></a>
+        <a class="btn btn-outline" href="https://wa.me/971500000000" target="_blank" rel="noopener"><svg class="i" aria-hidden="true" focusable="false"><use href="#ph-whatsapp-logo-fill"/></svg>Chat on WhatsApp</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 3. Trust bar -->
+  <section class="trust" aria-label="Why clients trust us">
+    <div class="wrap">
+      <ul class="trust-panel">
+        <li class="trust-item"><span class="big">1,200+</span><span class="label">rental cases handled</span></li>
+        <li class="trust-item"><span class="big">4.9 <svg class="i star" aria-hidden="true"><use href="#ph-star-fill"/></svg></span><span class="label">on Google</span></li>
+        <li class="trust-item"><span class="big" aria-hidden="true"><svg class="i ico"><use href="#ph-chats"/></svg></span><span class="label">Arabic &amp; English</span></li>
+        <li class="trust-item"><span class="big" aria-hidden="true"><svg class="i ico"><use href="#ph-file-text"/></svg></span><span class="label">Fixed-fee pricing</span></li>
+      </ul>
+    </div>
+  </section>
+ </div>
+
+  <!-- 4. Problems -->
+  <section class="block problems" aria-labelledby="h-prob">
+    <div class="wrap">
+      <div class="head reveal"><h2 id="h-prob">Which situation are you in?</h2></div>
+      <!-- Cards are links to the form: without JS they jump to #review; with JS they also preselect "I am a".
+           Name = the title, description = the answer (otherwise the link would read both as one long name). -->
+      <div class="prob-grid">
+        <a class="prob reveal" style="--d:0ms" href="#review" data-role="Tenant" aria-labelledby="prob-1-t" aria-describedby="prob-1-d">
+          <div class="prob-panel">
+            <img class="prob-ic" src="assets/situation-eviction-160.webp" srcset="assets/situation-eviction-160.webp 160w, assets/situation-eviction-320.webp 320w" sizes="(max-width:640px) 72px, (max-width:1024px) 80px, 88px" width="160" height="160" alt="" loading="lazy" decoding="async">
+            <span class="prob-go" aria-hidden="true"><svg class="i"><use href="#ph-arrow-up-right"/></svg></span>
+            <h3 id="prob-1-t">You received an eviction notice</h3>
+            <p id="prob-1-d">We check whether the notice is valid before you agree to move out.</p>
+          </div>
+        </a>
+        <a class="prob reveal" style="--d:70ms" href="#review" data-role="Landlord" aria-labelledby="prob-2-t" aria-describedby="prob-2-d">
+          <div class="prob-panel">
+            <img class="prob-ic" src="assets/situation-unpaid-160.webp" srcset="assets/situation-unpaid-160.webp 160w, assets/situation-unpaid-320.webp 320w" sizes="(max-width:640px) 72px, (max-width:1024px) 80px, 88px" width="160" height="160" alt="" loading="lazy" decoding="async">
+            <span class="prob-go" aria-hidden="true"><svg class="i"><use href="#ph-arrow-up-right"/></svg></span>
+            <h3 id="prob-2-t">Your tenant stopped paying rent</h3>
+            <p id="prob-2-d">We file the claim and pursue payment and, if needed, eviction.</p>
+          </div>
+        </a>
+        <a class="prob reveal" style="--d:140ms" href="#review" data-role="Tenant" aria-labelledby="prob-3-t" aria-describedby="prob-3-d">
+          <div class="prob-panel">
+            <img class="prob-ic" src="assets/situation-deposit-160.webp" srcset="assets/situation-deposit-160.webp 160w, assets/situation-deposit-320.webp 320w" sizes="(max-width:640px) 72px, (max-width:1024px) 80px, 88px" width="160" height="160" alt="" loading="lazy" decoding="async">
+            <span class="prob-go" aria-hidden="true"><svg class="i"><use href="#ph-arrow-up-right"/></svg></span>
+            <h3 id="prob-3-t">Your deposit was not returned</h3>
+            <p id="prob-3-d">We recover your security deposit and any deductions made without proof.</p>
+          </div>
+        </a>
+        <a class="prob reveal" style="--d:210ms" href="#review" data-role="Tenant" aria-labelledby="prob-4-t" aria-describedby="prob-4-d">
+          <div class="prob-panel">
+            <img class="prob-ic" src="assets/situation-rent-160.webp" srcset="assets/situation-rent-160.webp 160w, assets/situation-rent-320.webp 320w" sizes="(max-width:640px) 72px, (max-width:1024px) 80px, 88px" width="160" height="160" alt="" loading="lazy" decoding="async">
+            <span class="prob-go" aria-hidden="true"><svg class="i"><use href="#ph-arrow-up-right"/></svg></span>
+            <h3 id="prob-4-t">Your rent was raised unfairly</h3>
+            <p id="prob-4-d">We check the increase against the official rental index and challenge it if it is too high.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Process -->
+  <section class="process" aria-labelledby="h-proc">
+    <div class="wrap"><h2 id="h-proc" class="reveal">How it works</h2></div>
+    <ol class="rail" id="rail" tabindex="0" aria-label="How it works, 3 steps">
+        <li class="card" id="step-1">
+          <img src="assets/process-1-review-900.webp" srcset="assets/process-1-review-900.webp 900w, assets/process-1-review-1800.webp 1800w" sizes="(max-width:640px) 84vw, 893px" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+          <div class="txt"><h3>Free case review</h3><p>Send us your contract and any notices. Within 24 hours we tell you where you stand.</p></div>
+        </li>
+        <li class="card" id="step-2">
+          <img src="assets/process-2-quote-900.webp" srcset="assets/process-2-quote-900.webp 900w, assets/process-2-quote-1800.webp 1800w" sizes="(max-width:640px) 84vw, 893px" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+          <div class="txt"><h3>Fixed-fee quote</h3><p>One price for the whole case. No hourly billing, no surprises.</p></div>
+        </li>
+        <li class="card" id="step-3">
+          <img src="assets/process-3-represent-900.webp" srcset="assets/process-3-represent-900.webp 900w, assets/process-3-represent-1800.webp 1800w" sizes="(max-width:640px) 84vw, 893px" width="1800" height="1200" alt="" loading="lazy" decoding="async">
+          
+          <div class="txt"><h3>We represent you</h3><p>We prepare your file, submit it and attend every hearing on your behalf.</p></div>
+        </li>
+    </ol>
+    <div class="rail-nav">
+      <button class="rail-btn" id="railPrev" type="button" aria-label="Previous step"><svg class="i" aria-hidden="true"><use href="#ph-caret-left-light"/></svg></button>
+      <div class="dots" id="railDots">
+        <button type="button" aria-label="Step 1" aria-current="true"></button>
+        <button type="button" aria-label="Step 2"></button>
+        <button type="button" aria-label="Step 3"></button>
+      </div>
+      <button class="rail-btn" id="railNext" type="button" aria-label="Next step"><svg class="i" aria-hidden="true"><use href="#ph-caret-right-light"/></svg></button>
+    </div>
+  </section>
+
+  <!-- 6. Testimonials -->
+  <section class="block quotes" aria-labelledby="h-q">
+    <div class="wrap">
+      <div class="head center reveal"><h2 id="h-q">What clients say</h2></div>
+      <div class="q-grid">
+        <figure class="q reveal" style="--d:0ms">
+          <svg class="i mark" aria-hidden="true"><use href="#ph-quotes-fill"/></svg>
+          <blockquote>Our landlord's eviction notice turned out to be invalid. They spotted it in the first call.</blockquote>
+          <figcaption><strong>Sarah K.</strong><span class="vh">, </span><span class="role">tenant</span><span class="vh">, </span><span>Dubai Marina</span></figcaption>
+        </figure>
+        <figure class="q reveal" style="--d:80ms">
+          <svg class="i mark" aria-hidden="true"><use href="#ph-quotes-fill"/></svg>
+          <blockquote>Six months of unpaid rent recovered in under ten weeks.</blockquote>
+          <figcaption><strong>Omar A.</strong><span class="vh">, </span><span class="role">landlord</span><span class="vh">, </span><span>Al Barsha</span></figcaption>
+        </figure>
+        <figure class="q reveal" style="--d:160ms">
+          <svg class="i mark" aria-hidden="true"><use href="#ph-quotes-fill"/></svg>
+          <blockquote>Clear advice, a fixed price and no runaround.</blockquote>
+          <figcaption><strong>Priya M.</strong><span class="vh">, </span><span class="role">tenant</span><span class="vh">, </span><span>JLT</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQ -->
+  <section class="faq" aria-labelledby="h-faq">
+    <div class="wrap">
+      <h2 id="h-faq" class="reveal">Questions we hear often</h2>
+      <div class="faq-list reveal" style="--d:80ms">
+        <details open><summary><span class="faq-q">How much does a rental dispute case cost?</span><span class="pm" aria-hidden="true"><svg class="i plus"><use href="#ph-plus-light"/></svg><svg class="i minus"><use href="#ph-minus-light"/></svg></span></summary><p class="ans">We give you a fixed fee after the free review. The official filing fee comes on top, and we explain it upfront.</p></details>
+        <details><summary><span class="faq-q">How long does a case take?</span><span class="pm" aria-hidden="true"><svg class="i plus"><use href="#ph-plus-light"/></svg><svg class="i minus"><use href="#ph-minus-light"/></svg></span></summary><p class="ans">Most of our cases close within two to three months.</p></details>
+        <details><summary><span class="faq-q">Do I need to attend the hearings?</span><span class="pm" aria-hidden="true"><svg class="i plus"><use href="#ph-plus-light"/></svg><svg class="i minus"><use href="#ph-minus-light"/></svg></span></summary><p class="ans">No. With a power of attorney, we attend on your behalf.</p></details>
+        <details><summary><span class="faq-q">Do you work with both tenants and landlords?</span><span class="pm" aria-hidden="true"><svg class="i plus"><use href="#ph-plus-light"/></svg><svg class="i minus"><use href="#ph-minus-light"/></svg></span></summary><p class="ans">Yes, but never for both sides of the same dispute.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Form -->
+  <section class="form-sec" id="review" aria-labelledby="h-form">
+    <div class="form-bg" aria-hidden="true"><img src="assets/form-night-skyline-900.webp" srcset="assets/form-night-skyline-900.webp 900w, assets/form-night-skyline-1600.webp 1600w" sizes="100vw" width="1600" height="1066" alt="" loading="lazy" decoding="async"></div>
+    <div class="wrap form-grid">
+      <div class="form-copy reveal">
+        <h2 id="h-form">Get your free case review</h2>
+        <p class="lead">Answer four short questions. We reply within 24 hours on WhatsApp.</p>
+      </div>
+      <form class="form-card reveal" style="--d:80ms" id="reviewForm" action="#" method="post" novalidate>
+        <!-- NOTE: error lines (.field-err) stay empty and collapsed until JS validates on submit; without JS the browser's native validation runs -->
+        <div class="form-fields" id="formFields">
+        <div class="fl"><input id="name" name="name" type="text" autocomplete="name" placeholder=" " required aria-describedby="name-err"><label for="name">Full name</label><p class="field-err" id="name-err"><span class="fe-clip"><span class="fe-row"><svg class="i" aria-hidden="true"><use href="#ph-warning-circle-fill"/></svg><span class="fe-msg"></span></span></span></p></div>
+        <!-- NOTE: no-JS fallback = UAE mobiles only: optional +971 / 00971 / 971 (optionally followed by a trunk 0 or "(0)") or a leading 0, then 5 and 8 more digits, single spaces/dashes allowed between digits. With JS the value is normalised and checked in script instead. maxlength 24 leaves room for a pasted label such as "Tel: +971 50 123 4567" (21 chars), which the sanitiser strips; a lower cap would cut the number before it runs. -->
+        <div class="fl"><input id="wa" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder=" " maxlength="24" pattern="(?:(?:\+|00)?971[\- ]?(?:\(0\)|0)?[\- ]?|0)?5(?:[\- ]?\d){8}" required aria-describedby="wa-err"><label for="wa">WhatsApp number</label><p class="field-err" id="wa-err"><span class="fe-clip"><span class="fe-row"><svg class="i" aria-hidden="true"><use href="#ph-warning-circle-fill"/></svg><span class="fe-msg"></span></span></span></p></div>
+        <div class="fl dd" id="roleDD">
+          <select id="role" name="role" required tabindex="-1" aria-hidden="true">
+            <option value="" disabled selected hidden></option>
+            <option>Tenant</option>
+            <option>Landlord</option>
+          </select><label id="roleLabel">I am a</label>
+          <button type="button" class="dd-btn" id="roleBtn" aria-haspopup="listbox" aria-expanded="false" aria-controls="roleList" aria-labelledby="roleLabel roleVal" aria-describedby="role-err"><span class="dd-val" id="roleVal"></span></button>
+          <svg class="i caret" aria-hidden="true"><use href="#ph-caret-down-light"/></svg>
+          <ul class="dd-list" id="roleList" role="listbox" aria-labelledby="roleLabel" tabindex="-1">
+            <li role="option" id="roleOpt1" data-value="Tenant" aria-selected="false"><span class="t">Tenant</span><svg class="i ck" aria-hidden="true"><use href="#ph-check-light"/></svg></li>
+            <li role="option" id="roleOpt2" data-value="Landlord" aria-selected="false"><span class="t">Landlord</span><svg class="i ck" aria-hidden="true"><use href="#ph-check-light"/></svg></li>
+          </ul>
+          <p class="field-err" id="role-err"><span class="fe-clip"><span class="fe-row"><svg class="i" aria-hidden="true"><use href="#ph-warning-circle-fill"/></svg><span class="fe-msg"></span></span></span></p>
+        </div>
+        <div class="fl"><textarea id="what" name="message" rows="4" placeholder=" " required aria-describedby="what-err"></textarea><label for="what">What happened?</label><p class="field-err" id="what-err"><span class="fe-clip"><span class="fe-row"><svg class="i" aria-hidden="true"><use href="#ph-warning-circle-fill"/></svg><span class="fe-msg"></span></span></span></p></div>
+        <button class="btn btn-primary submit" type="submit">Request My Free Review</button>
+        <p class="fine"><svg class="i" aria-hidden="true"><use href="#ph-lock-simple-fill"/></svg>Your details stay confidential. No spam.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- 9. Footer -->
+<footer>
+  <div class="wrap">
+    <span>Meridian Bay Legal Consultants (fictional) · Dubai, UAE · © 2026</span>
+    <a href="#">Privacy Policy</a>
+  </div>
+</footer>
+
+<!-- Sticky mobile CTA (≤640px only) -->
+<div class="sticky-cta" id="sticky"><a class="btn btn-primary js-to-form" href="#review">Book a Free Case Review</a></div>
+
+<!-- Mockup-only controls -->
+<details class="mock">
+  <summary>Mockup controls</summary>
+  <div class="opts">
+    <button type="button" id="stErr">Form: show validation errors</button>
+    <button type="button" id="stOk">Form: show "Request received"</button>
+    <button type="button" id="stReset">Form: reset</button>
+  </div>
+</details>
+
+<script>
+(function(){
+  var d=document, root=d.documentElement;
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Scroll reveal: triggers early (bottom margin), never on the hero */
+  if('IntersectionObserver' in window && !reduce){
+    root.classList.add('js');
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{rootMargin:'0px 0px 10% 0px',threshold:0});
+    d.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  }
+
+  var form=d.getElementById('reviewForm'), formSec=d.getElementById('review'), nameI=d.getElementById('name');
+  var sel=d.getElementById('role'), ddBtn=d.getElementById('roleBtn');
+  /* Focus waits for the smooth scroll to finish: focusing mid-scroll makes some browsers jump.
+     The timeout covers browsers without `scrollend` and the case where no scroll happens. */
+  function toForm(field,onArrive){
+    formSec.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    if(!field) return;
+    var done=false;
+    function focusField(){
+      if(done) return;
+      done=true;
+      removeEventListener('scrollend',focusField);
+      field.focus({preventScroll:true});
+      if(onArrive) onArrive();
+    }
+    if(reduce){ focusField(); return; }
+    addEventListener('scrollend',focusField);
+    setTimeout(focusField,900);
+  }
+  d.querySelectorAll('.js-to-form').forEach(function(a){
+    a.addEventListener('click',function(e){e.preventDefault();toForm(nameI)});
+  });
+
+  /* ============ 4. Situation cards: press feedback, preselect "I am a", go to the form ============ */
+  /* The cards are real links to #review; this only enhances them. Modified clicks (new tab/window) stay native. */
+  var PRESS_MS=160; /* long enough to see the arrow fill + ripple start, short enough not to read as lag */
+  function flashRole(){
+    ddBtn.classList.remove('flash');
+    void ddBtn.offsetWidth; /* restart the flash animation */
+    ddBtn.classList.add('flash');
+  }
+  function ripple(panel,e){
+    var r=panel.getBoundingClientRect(), el=d.createElement('span');
+    /* keyboard activation (detail 0) has no pointer position: start from the centre */
+    var x=e.detail?e.clientX-r.left:r.width/2, y=e.detail?e.clientY-r.top:r.height/2;
+    var size=2*Math.hypot(Math.max(x,r.width-x),Math.max(y,r.height-y)); /* reaches the farthest corner */
+    el.className='prob-ripple';
+    el.style.left=x+'px'; el.style.top=y+'px'; el.style.width=el.style.height=size+'px';
+    el.addEventListener('animationend',function(){ el.remove(); });
+    panel.appendChild(el);
+  }
+  d.querySelectorAll('.prob').forEach(function(card){
+    var panel=card.querySelector('.prob-panel'), timer=0;
+    card.addEventListener('click',function(e){
+      if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey) return;
+      e.preventDefault();
+      sel.value=card.dataset.role;
+      sel.dispatchEvent(new Event('change'));
+      card.classList.add('is-going');
+      if(!reduce) ripple(panel,e);
+      clearTimeout(timer);
+      timer=setTimeout(function(){
+        toForm(nameI,flashRole);
+        timer=setTimeout(function(){ card.classList.remove('is-going'); },1000);
+      },reduce?0:PRESS_MS);
+    });
+  });
+  /* HACK: iOS Safari only applies :active (the press scale) when an ancestor has a touch listener */
+  d.querySelector('.prob-grid').addEventListener('touchstart',function(){},{passive:true});
+
+  /* How it works carousel: arrows, dots, active state from scroll position */
+  var rail=d.getElementById('rail'), cards=[].slice.call(rail.children), dots=[].slice.call(d.querySelectorAll('#railDots button')), prev=d.getElementById('railPrev'), next=d.getElementById('railNext'), active=0;
+  function padL(){return parseFloat(getComputedStyle(rail).paddingLeft)||0}
+  function maxX(){return rail.scrollWidth-rail.clientWidth}
+  function paint(i,x){
+    active=i;
+    dots.forEach(function(b,k){b.setAttribute('aria-current',k===i?'true':'false')});
+    prev.disabled=x<=4; next.disabled=x>=maxX()-4;
+  }
+  function goTo(i){
+    i=Math.max(0,Math.min(cards.length-1,i));
+    var x=Math.min(maxX(),Math.max(0,cards[i].offsetLeft-rail.offsetLeft-padL()));
+    paint(i,x);                                   /* update controls right away */
+    rail.scrollTo({left:x, behavior:reduce?'auto':'smooth'});
+  }
+  function sync(){                                /* follow manual swipes / trackpad scrolls */
+    var x=rail.scrollLeft, best=0, bd=1e9;
+    if(x>=maxX()-4){best=cards.length-1}else{cards.forEach(function(c,i){var dd=Math.abs(c.offsetLeft-rail.offsetLeft-padL()-x); if(dd<bd){bd=dd;best=i}})}
+    paint(best,x);
+  }
+  prev.onclick=function(){goTo(active-1)}; next.onclick=function(){goTo(active+1)};
+  dots.forEach(function(b,i){b.onclick=function(){goTo(i)}});
+  rail.addEventListener('keydown',function(e){if(e.key==='ArrowRight'){e.preventDefault();goTo(active+1)} if(e.key==='ArrowLeft'){e.preventDefault();goTo(active-1)}});
+  rail.addEventListener('scroll',sync,{passive:true}); rail.addEventListener('scrollend',sync);
+  addEventListener('resize',sync); sync();
+
+  /* Custom dropdown for "I am a" */
+  (function(){
+    var dd=d.getElementById('roleDD'), sel=d.getElementById('role'), btnD=d.getElementById('roleBtn'), val=d.getElementById('roleVal'), list=d.getElementById('roleList'), opts=[].slice.call(list.children), act=-1;
+    function render(){
+      val.textContent=sel.value||'';
+      opts.forEach(function(o){o.setAttribute('aria-selected',o.dataset.value===sel.value?'true':'false')});
+    }
+    function setActive(i){
+      act=(i+opts.length)%opts.length;
+      opts.forEach(function(o,k){o.classList.toggle('active',k===act)});
+      list.setAttribute('aria-activedescendant',opts[act].id);
+    }
+    function open(){
+      dd.classList.add('open'); btnD.setAttribute('aria-expanded','true');
+      var cur=opts.findIndex(function(o){return o.dataset.value===sel.value});
+      setActive(cur<0?0:cur); list.focus({preventScroll:true});
+    }
+    function close(refocus){
+      dd.classList.remove('open'); btnD.setAttribute('aria-expanded','false');
+      opts.forEach(function(o){o.classList.remove('active')}); list.removeAttribute('aria-activedescendant');
+      if(refocus) btnD.focus({preventScroll:true});
+    }
+    function choose(i){
+      sel.value=opts[i].dataset.value; sel.dispatchEvent(new Event('change',{bubbles:true}));
+      close(true);
+    }
+    btnD.addEventListener('click',function(){dd.classList.contains('open')?close(true):open()});
+    btnD.addEventListener('keydown',function(e){if(['ArrowDown','ArrowUp','Enter',' '].indexOf(e.key)>-1){e.preventDefault();open()}});
+    list.addEventListener('keydown',function(e){
+      if(e.key==='ArrowDown'){e.preventDefault();setActive(act+1)}
+      else if(e.key==='ArrowUp'){e.preventDefault();setActive(act-1)}
+      else if(e.key==='Home'){e.preventDefault();setActive(0)}
+      else if(e.key==='End'){e.preventDefault();setActive(opts.length-1)}
+      else if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(act)}
+      else if(e.key==='Escape'){e.preventDefault();close(true)}
+      else if(e.key==='Tab'){close(false)}
+    });
+    opts.forEach(function(o,i){
+      o.addEventListener('mousemove',function(){if(act!==i)setActive(i)});
+      o.addEventListener('click',function(){choose(i)});
+    });
+    d.addEventListener('pointerdown',function(e){if(dd.classList.contains('open')&&!dd.contains(e.target))close(false)});
+    sel.addEventListener('change',render);
+    form.addEventListener('reset',function(){setTimeout(render,0)});
+    render();
+  })();
+
+  /* WhatsApp number: UAE mobiles only */
+  /* Sanitise on `input` (never block keydown: that breaks paste, autofill and IMEs), rewrite to the
+     canonical "+971 5X XXX XXXX" on blur/submit; "Form feedback" below checks it with uaeMobile(). */
+  var wa=d.getElementById('wa');
+  /* Arabic-Indic (U+0660–0669), Eastern Arabic/Persian (U+06F0–06F9) and full-width (U+FF10–FF19) digits → ASCII */
+  function asciiDigits(s){
+    return s.replace(/[٠-٩۰-۹０-９]/g,function(c){
+      var n=c.charCodeAt(0);
+      return String.fromCharCode(48+n-(n>=0xFF10?0xFF10:n>=0x06F0?0x06F0:0x0660));
+    });
+  }
+  /* Keeps digits, ( ) - , single spaces and one leading +. Unicode spaces (NBSP from contact cards) become spaces,
+     Unicode dashes become "-", bidi marks and letters go. Leading spaces are dropped so a pasted "Tel: +971…" keeps its +.
+     Each kept char depends only on what was kept before it, so sanitise(prefix) is always a prefix of sanitise(all):
+     the caret maths in cleanWa() relies on that. */
+  function sanitise(s){
+    s=asciiDigits(s).replace(/\s/g,' ').replace(/[‐-―−]/g,'-');
+    for(var out='',i=0,c;i<s.length;i++){
+      c=s.charAt(i);
+      if(/[0-9()\-]/.test(c)||(c===' '&&out!=='')||(c==='+'&&out==='')) out+=c;
+    }
+    return out;
+  }
+  /* "+971 5X XXX XXXX" when the value is a UAE mobile in any accepted format, else ''.
+     Any 5X prefix passes, so new operator ranges keep working. */
+  function uaeMobile(v){
+    var s=sanitise(v), plus=s.charAt(0)==='+', n=s.replace(/\D/g,'');
+    if(!plus&&n.indexOf('00971')===0) n=n.slice(2);
+    if(n.indexOf('971')===0) n=n.slice(3).replace(/^0/,''); /* +971 (0)5… / +971 05…: drop the trunk 0 */
+    else if(plus) return '';                                 /* + followed by any other country code */
+    else n=n.replace(/^0/,'');                               /* national 05… */
+    return /^5\d{8}$/.test(n)?'+971 '+n.slice(0,2)+' '+n.slice(2,5)+' '+n.slice(5):'';
+  }
+  function cleanWa(){
+    var v=wa.value, s=sanitise(v);
+    if(s===v) return;
+    /* keep the caret where the user was instead of letting it jump to the end */
+    var caret=sanitise(v.slice(0,wa.selectionEnd==null?v.length:wa.selectionEnd)).length;
+    wa.value=s;
+    if(d.activeElement===wa) wa.setSelectionRange(caret,caret);
+  }
+  /* valid → canonical form; invalid → the user's text stays untouched so they can fix it */
+  function normaliseWa(){
+    var c=uaeMobile(wa.value);
+    if(c&&c!==wa.value) wa.value=c;
+  }
+  wa.addEventListener('input',function(e){ if(!e.isComposing) cleanWa(); }); /* covers typing, paste, drop, autofill */
+  wa.addEventListener('compositionend',cleanWa);
+  wa.addEventListener('blur',normaliseWa);
+
+  /* ============ 8. Form feedback: error lines + "Request received" ============ */
+  /* NOTE: the error lines and the panel are interface text the brief doesn't contain, added as a user-approved
+     exception (explained in Part C). None of it exists or shows until the visitor submits, so the page as loaded
+     still matches the brief word for word. With JS the form is novalidate and these lines replace the browser's
+     bubbles; without JS the native `required` + pattern checks run as before. */
+  form.noValidate=true;
+  var what=d.getElementById('what'), roleDD=d.getElementById('roleDD'), fields=d.getElementById('formFields');
+  var tried=false, okPanel=null, okLine=null, sizeTimer=0;
+  function filled(el){ return el.value.trim()!==''; } /* whitespace-only counts as empty */
+  var rules=[
+    {el:nameI, ctl:nameI, msg:function(){ return filled(nameI)?'':'Enter your full name.'; }},
+    {el:wa, ctl:wa, msg:function(){
+      if(!filled(wa)) return 'Enter your WhatsApp number.';
+      return uaeMobile(wa.value)?'':'Enter a UAE mobile number, e.g. 050 123 4567.';
+    }},
+    /* the native select is hidden; its custom button carries focus, aria-invalid and the description */
+    {el:sel, ctl:ddBtn, msg:function(){ return sel.value?'':'Choose Tenant or Landlord.'; }},
+    {el:what, ctl:what, msg:function(){ return filled(what)?'':'Tell us briefly what happened.'; }}
+  ];
+  rules.forEach(function(r){
+    r.box=d.getElementById(r.ctl.getAttribute('aria-describedby'));
+    r.text=r.box.querySelector('.fe-msg');
+    r.shown=false;
+    r.timer=0;
+  });
+  function showErr(r,m){
+    clearTimeout(r.timer);
+    r.text.textContent=m;
+    r.box.classList.add('on');
+    r.ctl.setAttribute('aria-invalid','true');
+    r.shown=true;
+  }
+  function clearErr(r){
+    if(!r.shown) return;
+    r.shown=false;
+    r.box.classList.remove('on');
+    r.ctl.removeAttribute('aria-invalid');
+    /* the text stays while the line collapses, then goes so the field's description is empty again */
+    clearTimeout(r.timer);
+    r.timer=setTimeout(function(){ if(!r.shown) r.text.textContent=''; },reduce?0:260);
+  }
+  function check(r){
+    var m=r.msg();
+    if(m) showErr(r,m); else clearErr(r);
+    return !m;
+  }
+  /* Before the first submit nothing is shown. After it: a field is re-checked when the visitor leaves it, and its
+     error clears the moment the value becomes valid. Typing never raises a new error. */
+  rules.forEach(function(r){
+    if(r.el===sel){
+      sel.addEventListener('change',function(){ if(r.shown&&!r.msg()) clearErr(r); });
+      /* the listbox takes focus while open, so "leaving" means focus has left the whole control */
+      roleDD.addEventListener('focusout',function(e){ if(tried&&!roleDD.contains(e.relatedTarget)) check(r); });
+    } else {
+      r.el.addEventListener('input',function(){ if(r.shown&&!r.msg()) clearErr(r); });
+      r.el.addEventListener('blur',function(){ if(tried) check(r); }); /* WhatsApp: runs after normaliseWa() */
+    }
+  });
+  function validateAll(){
+    var first=null;
+    tried=true;
+    rules.forEach(function(r){ if(!check(r)&&!first) first=r; });
+    return first;
+  }
+  function focusInvalid(r){
+    var wrap=r.ctl.closest('.fl'), b=wrap.getBoundingClientRect();
+    r.ctl.focus({preventScroll:true});
+    /* scroll only when the field is off screen; centred so its label and the opening error line both show */
+    if(b.top<0||b.bottom>innerHeight) wrap.scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'});
+  }
+
+  /* "Request received" is built on first success with textContent only: the name is user input, never HTML */
+  var SVG_NS='http://www.w3.org/2000/svg';
+  var STEPS=[
+    ['Free case review','We reply within 24 hours on WhatsApp.'],
+    ['Fixed-fee quote','One price for the whole case, before you commit.'],
+    ['We represent you','We prepare your file and attend every hearing on your behalf.']
+  ];
+  function make(tag,cls,text){
+    var n=d.createElement(tag);
+    if(cls) n.className=cls;
+    if(text) n.textContent=text;
+    return n;
+  }
+  function spriteIcon(id){ /* decorative sprite icon; the link text stays the accessible name */
+    var svg=d.createElementNS(SVG_NS,'svg'), use=d.createElementNS(SVG_NS,'use');
+    svg.setAttribute('class','i');
+    svg.setAttribute('aria-hidden','true');
+    svg.setAttribute('focusable','false');
+    use.setAttribute('href','#'+id);
+    svg.appendChild(use);
+    return svg;
+  }
+  function buildPanel(){
+    var p=make('div','ok'), ico=d.createElementNS(SVG_NS,'svg'), use=d.createElementNS(SVG_NS,'use');
+    var h=make('h3',null,'Request received'), list=make('ol','ok-steps'), wa2=make('a','btn btn-outline','Chat on WhatsApp');
+    ico.setAttribute('class','i ok-ico');
+    ico.setAttribute('aria-hidden','true');
+    use.setAttribute('href','#ph-check-circle-fill');
+    ico.appendChild(use);
+    h.tabIndex=-1; /* focus target: screen readers announce the heading once, and focus isn't lost with the fields */
+    okLine=make('p','ok-line');
+    list.setAttribute('role','list'); /* Safari drops list semantics from list-style:none lists */
+    STEPS.forEach(function(s){
+      var li=make('li');
+      li.appendChild(make('strong',null,s[0]));
+      li.appendChild(make('span','vh',' — ')); /* the dash is read, not shown: the layout separates name and text */
+      li.appendChild(make('span','ok-desc',s[1]));
+      list.appendChild(li);
+    });
+    wa2.insertBefore(spriteIcon('ph-whatsapp-logo-fill'),wa2.firstChild);
+    wa2.href='https://wa.me/971500000000';
+    wa2.target='_blank';
+    wa2.rel='noopener';
+    [ico,h,okLine,make('h4',null,'What happens next'),list,wa2].forEach(function(n){ p.appendChild(n); });
+    form.appendChild(p);
+    return p;
+  }
+  function showReceived(){
+    var h0=form.offsetHeight, num=make('span','ok-num',wa.value);
+    if(!okPanel) okPanel=buildPanel();
+    okLine.textContent='Thank you, '+nameI.value.trim().split(/\s+/)[0]+'. We\'ll message you on WhatsApp at ';
+    okLine.appendChild(num);
+    okLine.appendChild(d.createTextNode('.'));
+    fields.hidden=true;
+    okPanel.hidden=false;
+    form.classList.add('is-done');
+    /* never shrink below the form's height: a shorter card would pull the page up under the visitor */
+    form.style.minHeight=h0+'px';
+    var h1=form.offsetHeight;
+    if(!reduce&&h1>h0){
+      /* inline styles: a class would lose to `.js .reveal`'s transition shorthand, which comes later in the sheet */
+      form.style.overflow='hidden';
+      form.style.height=h0+'px';
+      void form.offsetHeight; /* commit the start height before transitioning */
+      form.style.transition='height .4s cubic-bezier(.2,.8,.2,1)';
+      form.style.height=h1+'px';
+      clearTimeout(sizeTimer);
+      sizeTimer=setTimeout(endSizing,450);
+    }
+    okPanel.querySelector('h3').focus({preventScroll:true});
+    if(form.getBoundingClientRect().top<0) form.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+  }
+  function endSizing(){
+    clearTimeout(sizeTimer);
+    form.style.height=form.style.overflow=form.style.transition='';
+  }
+  form.addEventListener('submit',function(e){
+    e.preventDefault(); /* NOTE: action="#" per the brief; there is no backend to post to */
+    if(fields.hidden) return;
+    normaliseWa(); /* Enter-to-submit and autofill skip blur, so normalise before checking */
+    var bad=validateAll();
+    if(bad) focusInvalid(bad);
+    else showReceived();
+  });
+  /* form.reset() restores the fields and the native select; feedback and panel go with it */
+  form.addEventListener('reset',function(){
+    tried=false;
+    rules.forEach(clearErr);
+    endSizing();
+    form.style.minHeight='';
+    form.classList.remove('is-done');
+    if(okPanel) okPanel.hidden=true;
+    fields.hidden=false;
+  });
+
+  /* Mockup controls: reset goes through the form's own reset handler above */
+  d.getElementById('stErr').onclick=function(){ validateAll(); toForm(); };
+  d.getElementById('stOk').onclick=function(){
+    if(!fields.hidden){
+      nameI.value='Sara Ahmed'; wa.value='050 123 4567'; what.value='My landlord sent an eviction notice.';
+      sel.value='Tenant'; sel.dispatchEvent(new Event('change'));
+      form.requestSubmit();
+    }
+    toForm();
+  };
+  d.getElementById('stReset').onclick=function(){ form.reset(); };
+
+  /* Sticky mobile CTA: show once the hero CTA has scrolled away, hide while the form is on screen */
+  var sticky=d.getElementById('sticky'), heroCta=d.getElementById('heroCta'), ticking=false;
+  function upd(){
+    ticking=false;
+    var heroGone=heroCta.getBoundingClientRect().bottom<0;
+    var atForm=formSec.getBoundingClientRect().top<innerHeight*0.85;
+    sticky.classList.toggle('on',heroGone&&!atForm);
+  }
+  addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(upd)}},{passive:true});
+  addEventListener('resize',upd); upd();
+})();
+</script>
+</body>
+</html>

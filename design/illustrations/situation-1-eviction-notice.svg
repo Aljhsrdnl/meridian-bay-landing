@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="Eviction notice">
+  <title>Eviction notice</title>
+  <g fill="none" stroke="#C3C9D4" stroke-width="1.25" stroke-dasharray="4 6">
+  <rect x="60" y="60" width="360" height="360"/>
+  <path d="M30 30 L110 110 M450 30 L370 110 M30 450 L110 370 M450 450 L370 370"/>
+  <path d="M240 34 V86 M240 394 V446 M34 240 H86 M394 240 H446"/>
+  <circle cx="240" cy="240" r="150"/>
+  <circle cx="240" cy="240" r="80"/>
+  </g>
+  <g fill="none" stroke="#0B1F4D" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 105 H290 L335 150 V375 H150 Z"/>
+    <path d="M290 105 V150 H335"/>
+  </g>
+  <g stroke="#0B1F4D" stroke-width="7" stroke-linecap="round">
+    <path d="M180 190 H300"/>
+    <path d="M180 220 H300"/>
+    <path d="M180 250 H238"/>
+    <path d="M180 280 H215"/>
+  </g>
+  <g fill="none" stroke="#0052DF" stroke-width="8" stroke-linecap="round">
+    <circle cx="272" cy="300" r="48"/>
+    <path d="M306 334 L362 390"/>
+  </g>
+  <path d="M252 300 L267 315 L294 286" fill="none" stroke="#0052DF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

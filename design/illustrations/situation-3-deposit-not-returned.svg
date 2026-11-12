@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="Deposit not returned">
+  <title>Deposit not returned</title>
+  <g fill="none" stroke="#C3C9D4" stroke-width="1.25" stroke-dasharray="4 6">
+  <rect x="60" y="60" width="360" height="360"/>
+  <path d="M30 30 L110 110 M450 30 L370 110 M30 450 L110 370 M450 450 L370 370"/>
+  <path d="M240 34 V86 M240 394 V446 M34 240 H86 M394 240 H446"/>
+  <circle cx="240" cy="240" r="150"/>
+  <circle cx="240" cy="240" r="80"/>
+  </g>
+  <circle cx="240" cy="240" r="170" fill="#EEF1F6"/>
+  <circle cx="256" cy="256" r="138" fill="#DCE2EC"/>
+  <circle cx="270" cy="270" r="108" fill="#C2CBDB"/>
+  <circle cx="282" cy="282" r="80" fill="#93A2BE"/>
+  <circle cx="292" cy="292" r="54" fill="#53658C" fill-opacity="0.9"/>
+  <circle cx="240" cy="240" r="30" fill="#0052DF"/>
+  <path d="M314 316 Q 304 278 272 270" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M282 266 L268 268 L276 281" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

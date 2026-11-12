@@ -1,0 +1,18 @@
+# Private project log (Claude working memory) — never commit
+claude-conversation.txt
+
+# Brainstorming scratch from design sessions
+.superpowers/
+
+# macOS
+.DS_Store
+
+# Part C working notes (private, used to write the submission)
+part-c-notes.md
+
+# Claude Code working setup (rules, agents, preview config) — kept local
+CLAUDE.md
+.claude/
+
+# Review screenshots from design sessions — kept local
+design/screens/

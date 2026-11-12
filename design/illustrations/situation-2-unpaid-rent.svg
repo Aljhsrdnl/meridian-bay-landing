@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480" height="480" role="img" aria-label="Tenant stopped paying rent">
+  <title>Tenant stopped paying rent</title>
+  <g fill="none" stroke="#C3C9D4" stroke-width="1.25" stroke-dasharray="4 6">
+  <rect x="60" y="60" width="360" height="360"/>
+  <path d="M30 30 L110 110 M450 30 L370 110 M30 450 L110 370 M450 450 L370 370"/>
+  <path d="M240 34 V86 M240 394 V446 M34 240 H86 M394 240 H446"/>
+  </g>
+  <path d="M100 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M114 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M128 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M142 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M156 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M170 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M184 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M198 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M212 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M226 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M240 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M254 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M268 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M282 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M296 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M310 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M324 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M338 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M352 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M366 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M380 92 V388" stroke="#D9DDE4" stroke-width="3"/>
+  <path d="M100 214 V266" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M114 192 V288" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M128 170 V310" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M142 152 V328" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M156 170 V310" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M170 192 V288" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M184 214 V266" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M198 192 V288" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M212 236 V244" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M226 236 V244" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M240 236 V244" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M254 236 V244" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M268 236 V244" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M282 236 V244" stroke="#0B1F4D" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M296 222 V258" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M310 208 V272" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M324 194 V286" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M338 180 V300" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M352 166 V314" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M366 154 V326" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+  <path d="M380 144 V336" stroke="#0052DF" stroke-width="7" stroke-linecap="butt"/>
+</svg>

@@ -1,0 +1,25 @@
+# Meridian Bay Legal Consultants
+
+> Fictional firm. Meridian Bay Legal Consultants is not a real company: this is a demo landing page made for a web design test, and it does not offer legal services. The page presents a rental-dispute law firm in Dubai that represents tenants and landlords at the Rental Dispute Settlement Centre, in Arabic and English.
+
+Canonical page: https://meridian-bay.example/
+
+## Situations covered
+
+- You received an eviction notice: We check whether the notice is valid before you agree to move out.
+- Your tenant stopped paying rent: We file the claim and pursue payment and, if needed, eviction.
+- Your deposit was not returned: We recover your security deposit and any deductions made without proof.
+- Your rent was raised unfairly: We check the increase against the official rental index and challenge it if it is too high.
+
+## How it works
+
+1. Free case review: Send us your contract and any notices. Within 24 hours we tell you where you stand.
+2. Fixed-fee quote: One price for the whole case. No hourly billing, no surprises.
+3. We represent you: We prepare your file, submit it and attend every hearing on your behalf.
+
+## Questions we hear often
+
+- How much does a rental dispute case cost? We give you a fixed fee after the free review. The official filing fee comes on top, and we explain it upfront.
+- How long does a case take? Most of our cases close within two to three months.
+- Do I need to attend the hearings? No. With a power of attorney, we attend on your behalf.
+- Do you work with both tenants and landlords? Yes, but never for both sides of the same dispute.
