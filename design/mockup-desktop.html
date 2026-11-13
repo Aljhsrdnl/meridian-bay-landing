@@ -41,6 +41,7 @@
     --navy-2:#13295E;        /* one step up on navy */
     --ink:#1E1E1E;           /* primary text */
     --body:#616161;          /* secondary text (6.1:1 on white) */
+    --wa-icon:var(--body);   /* WhatsApp icon on the outline buttons: secondary grey, independent of the button text */
     --muted:#616161;
     --line-btn:#D9D9D9;      /* outline button border */
     --paper:#FAF8F4;         /* warm off-white page */
@@ -87,7 +88,8 @@
   .btn-box:hover .box .i,.btn-box:focus-visible .box .i{transform:rotate(45deg)}
   .btn-outline{background:#fff;color:var(--ink);border-color:var(--line-btn)}
   .btn-outline:hover{border-color:var(--ink)}
-  .btn-outline .i{font-size:20px} /* same 20px as the primary button's arrow; colour follows the text via .i fill:currentColor */
+  /* WhatsApp icon only in the stacked full-width layout (<=640, shown there); side by side the button stays text-only, and display:none leaves no stray flex gap */
+  .btn-outline .i{display:none;font-size:20px;color:var(--wa-icon)} /* same 20px as the primary button's arrow; .i fill:currentColor picks up --wa-icon */
   .btn-sm{min-height:46px;padding:0 22px;border-radius:7px}
 
   /* ---------- Header ---------- */
@@ -443,6 +445,7 @@
     .btn-box{justify-content:space-between;padding-left:18px}
     /* full-width outline buttons mirror .btn-box: same 18px text inset; 14px right = 6px box inset + (36-20)/2, so the icon sits on the arrow's centre line */
     .ctas .btn-outline,.ok .btn-outline{justify-content:space-between;padding:0 14px 0 18px}
+    .ctas .btn-outline .i,.ok .btn-outline .i{display:block}
     .hero-bg{top:auto;height:520px}
     .hero-wrap{min-height:0}
     .hero{padding-bottom:0}
