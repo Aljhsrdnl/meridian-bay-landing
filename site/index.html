@@ -601,6 +601,8 @@
     .ctas{flex-direction:column;align-items:stretch;margin-top:30px}
     .ctas .btn{width:100%}
     .btn-box{justify-content:space-between;padding-left:18px}
+    /* full-width outline buttons mirror .btn-box: same 18px text inset; 14px right = 6px box inset + (36-20)/2, so the icon sits on the arrow's centre line */
+    .ctas .btn-outline,.ok .btn-outline{justify-content:space-between;padding:0 14px 0 18px}
     /* trust bar: 150px gap lets the skyline show between the CTAs and the tray */
     .trust{margin-top:150px;padding-bottom:20px}
     .trust .wrap{padding:0 12px}
@@ -723,7 +725,7 @@
       <div class="ctas">
         <a class="btn btn-primary btn-box js-to-form" id="heroCta" href="#review">Book a Free Case Review
           <span class="box" aria-hidden="true"><svg class="i"><use href="#ph-arrow-up-right"/></svg></span></a>
-        <a class="btn btn-outline" href="https://wa.me/971500000000" target="_blank" rel="noopener"><svg class="i" aria-hidden="true" focusable="false"><use href="#ph-whatsapp-logo-fill"/></svg>Chat on WhatsApp</a>
+        <a class="btn btn-outline" href="https://wa.me/971500000000" target="_blank" rel="noopener">Chat on WhatsApp<svg class="i" aria-hidden="true" focusable="false"><use href="#ph-whatsapp-logo-fill"/></svg></a>
       </div>
     </div>
   </section>
@@ -1227,7 +1229,7 @@
       li.appendChild(make('span','ok-desc',s[1]));
       list.appendChild(li);
     });
-    wa2.insertBefore(spriteIcon('ph-whatsapp-logo-fill'),wa2.firstChild);
+    wa2.appendChild(spriteIcon('ph-whatsapp-logo-fill')); /* after the text: DOM order = visual order */
     wa2.href='https://wa.me/971500000000';
     wa2.target='_blank';
     wa2.rel='noopener';
