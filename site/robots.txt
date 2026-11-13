@@ -45,4 +45,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://meridian-bay.example/sitemap.xml
+Sitemap: https://meridian-bay-silk.vercel.app/sitemap.xml

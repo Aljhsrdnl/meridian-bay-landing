@@ -2,6 +2,8 @@
 
 A one-page, responsive landing page for **Meridian Bay Legal Consultants**, a rental-dispute law firm in Dubai that represents tenants and landlords at the Rental Dispute Settlement Centre. The page has one goal: get a stressed visitor (usually on a phone, arriving from an ad) to request a free case review through the form or WhatsApp.
 
+**Live:** https://meridian-bay-silk.vercel.app
+
 Built as **Part A of the PremiumPages Web Designer-Developer test task**. The page copy follows the brief word for word and in the order the brief gives it.
 
 > **The firm is fictional.** Meridian Bay Legal Consultants is not a real company. The page says so in the footer, and the WhatsApp number (`+971 50 000 0000`) is a placeholder. The form doesn't send data anywhere (`action="#"`).
@@ -64,14 +66,16 @@ Deploy **only the `site/` folder**; it holds everything the page needs.
 
 All three hosts serve the files with gzip/brotli compression and HTTPS, which the PageSpeed score relies on.
 
-## Replace before deploy
+On Vercel, `site/vercel.json` adds cache headers (one year for the font, 30 days for images) and basic security headers.
 
-The live URL isn't known yet, so every absolute URL uses the placeholder origin **`https://meridian-bay.example`** (`.example` is a reserved domain, so it can never resolve to someone else's site). Replace it with the real origin, **without a trailing slash**, in one find-and-replace across `site/`:
+## Changing the domain
+
+Every absolute URL uses the live origin **`https://meridian-bay-silk.vercel.app`**. To move the page to another domain, replace it with the new origin, **without a trailing slash**, in one find-and-replace across `site/`:
 
 ```bash
-# from the repo root; example origin shown, use yours (macOS sed; on Linux drop the '')
-grep -rl 'https://meridian-bay.example' site | xargs sed -i '' 's#https://meridian-bay\.example#https://meridian-bay.vercel.app#g'
-grep -rn 'meridian-bay.example' site   # must print nothing
+# from the repo root (macOS sed; on Linux drop the '')
+grep -rl 'https://meridian-bay-silk.vercel.app' site | xargs sed -i '' 's#https://meridian-bay-silk\.vercel\.app#https://your-domain.com#g'
+grep -rn 'meridian-bay-silk.vercel.app' site   # must print nothing
 ```
 
 Where it appears (29 occurrences, all in `site/`):

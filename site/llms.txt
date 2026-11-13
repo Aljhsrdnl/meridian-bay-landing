@@ -2,7 +2,7 @@
 
 > Fictional firm. Meridian Bay Legal Consultants is not a real company: this is a demo landing page made for a web design test, and it does not offer legal services. The page presents a rental-dispute law firm in Dubai that represents tenants and landlords at the Rental Dispute Settlement Centre, in Arabic and English.
 
-Canonical page: https://meridian-bay.example/
+Canonical page: https://meridian-bay-silk.vercel.app/
 
 ## Situations covered
 
